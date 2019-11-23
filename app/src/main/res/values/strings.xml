@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DMESP</string>
+
+    <string-array name="spinner_mobile">
+        <item>Pais/Responsável</item>
+        <item>Escola/Prefeitura</item>
+    </string-array>
+</resources>

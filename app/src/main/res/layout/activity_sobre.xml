@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dariooliveirajr.dmesp.SobreActivity"
+    android:background="@drawable/fundo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/imageView12"
+        android:background="@drawable/retangulo2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVoltaIdSobr"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/volta"
+        android:layout_alignBottom="@+id/imageView12" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_below="@+id/imageView12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:text="\nPensando na importância que a tecnologia tem no mundo atual, principalmente na logística para otimização dos processos e afins, DMESP (Distribuição dos Materiais Escolares pela Prefeitura de Santana de Parnaíba) visa com esse aplicativo  garantir a comunicação entre as escolas do município com o Setor de Merenda e a comunicação entre pais/responsáveis pelos alunos de uma maneira mais eficaz e formal. Assim diminuindo o número de informações que possam se perder durante o processo.\n\nGloria Laila Alves Guimarães\n\nLetícia Reis de Oliveira\n\nTaís Fernandes de Oliveira Verônica da Cruz Gargoriano\n\n\n"
+            android:id="@+id/textView2"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:paddingTop="10dp"
+            android:layout_alignTop="@+id/scrollView2"
+            android:layout_centerHorizontal="true" />
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/topo2"
+        android:layout_above="@+id/scrollView2"
+        android:layout_toRightOf="@+id/btnVoltaIdSobr"
+        android:layout_toEndOf="@+id/btnVoltaIdSobr" />
+
+</RelativeLayout>

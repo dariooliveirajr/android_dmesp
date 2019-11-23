@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dariooliveirajr.dmesp.ContatoActivity"
+    android:background="@drawable/fundo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/imageView9"
+        android:background="@drawable/retangulo2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/imageView10"
+        android:background="@drawable/topo2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnVoltaIdCont"
+        android:layout_toEndOf="@+id/btnVoltaIdCont"
+        android:layout_alignBottom="@+id/imageView9" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:text="\n
+Secretária de Educação\n
+(11) 4622-8600\n\n
+
+Secretária Municipal de Compras e Licitações\n
+(11) 4622-7514\n\n
+
+Setor de Merenda Escolar\n
+(11) 4156-4748 \n(11) 4156-2440\n\n
+
+Demais secretárias: Secretário de Governo\n
+(11) 4622-7508\n\n
+
+Secretária de Habitação\n
+(11) 4154-5340\n\n
+
+Secretário de Tecnologia da Informação\n
+(11) 4622-7531\n\n
+
+Secretário da Administração\n
+(11) 4622-7512\n\n
+
+Secretário de Saúde\n
+(11) 4622-8850\n\n
+
+Secretário de Comunicação Social\n
+(11) 4622-7950\n\n
+
+Secretária de Cultura e Turismo\n
+(11) 4622-8700\n\n
+
+Secretário de Emprego, Desenv., Ciência, Tecnologia e Inovação\n
+(11)  4622-8250\n\n
+
+Secretário de Assistência Social\n
+(11) 4622-7050\n\n
+
+Secretário de Finanças\n
+(11)  4622-7510\n\n
+
+Secretário de Obras\n
+(11)  4622-7519\n\n
+
+Secretário de Atividade Física, Esporte e Lazer\n
+(11) 4622-8650\n\n
+
+Secretário Municipal de Controle Interno\n
+(11) 4154-5873\n\n
+
+Secretária de Meio Ambiente e Planejamento\n
+(11)  4622-7517\n\n
+
+Secretário Municipal da Casa Civil\n
+(11)  4622-7502\n\n
+
+Secretário de Segurança Urbana\n
+(11)  4622-7474\n\n
+
+Secretário Municipal de Serviços Municipais\n
+(11)  4622-7000\n\n
+
+Secretária Municipal de Negócios Jurídicos\n
+(11) 4705-9980\n\n
+
+Secretário Municipal de Transporte e Trânsito\n
+(11) 4154-1012\n\n\n"
+            android:id="@+id/textView"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp" />
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVoltaIdCont"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/volta"
+        android:layout_alignBottom="@+id/imageView9" />
+</RelativeLayout>

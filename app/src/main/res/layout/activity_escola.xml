@@ -10,10 +10,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView5"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/homeescola3"
         android:layout_below="@+id/imageView6"
-        android:layout_alignBottom="@+id/btnConIdE" />
+        android:layout_alignBottom="@+id/btnConIdE"
+        android:layout_alignLeft="@+id/btnLicIdE"
+        android:layout_alignStart="@+id/btnLicIdE"
+        android:layout_alignRight="@+id/btnSobIdE"
+        android:layout_alignEnd="@+id/btnSobIdE" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -43,7 +46,9 @@
         android:layout_alignLeft="@+id/btnPlanIdE"
         android:layout_alignStart="@+id/btnPlanIdE"
         android:layout_marginBottom="17dp"
-        android:background="#00ffffff" />
+        android:background="#00ffffff"
+        android:layout_alignRight="@+id/btnPlanIdE"
+        android:layout_alignEnd="@+id/btnPlanIdE" />
 
     <ImageButton
         android:layout_width="150dp"
@@ -61,9 +66,10 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/btnPlanIdE"
-        android:layout_below="@+id/imageView7"
+        android:background="#00ffffff"
+        android:layout_alignTop="@+id/imageView5"
         android:layout_centerHorizontal="true"
-        android:background="#00ffffff" />
+        android:layout_marginTop="39dp" />
 
     <ImageButton
         android:layout_width="150dp"

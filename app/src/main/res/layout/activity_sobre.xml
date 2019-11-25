@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textAlignment="center"
-            android:text="\nPensando na importância que a tecnologia tem no mundo atual, principalmente na logística para otimização dos processos e afins, DMESP (Distribuição dos Materiais Escolares pela Prefeitura de Santana de Parnaíba) visa com esse aplicativo  garantir a comunicação entre as escolas do município com o Setor de Merenda e a comunicação entre pais/responsáveis pelos alunos de uma maneira mais eficaz e formal. Assim diminuindo o número de informações que possam se perder durante o processo.\n\nGloria Laila Alves Guimarães\n\nLetícia Reis de Oliveira\n\nTaís Fernandes de Oliveira Verônica da Cruz Gargoriano\n\n\n"
+            android:text="\nPensando na importância que a tecnologia tem no mundo atual, principalmente na logística para otimização dos processos e afins, DMESP (Distribuição dos Materiais Escolares pela Prefeitura de Santana de Parnaíba) visa com esse aplicativo  garantir a comunicação entre as escolas do município com o Setor de Merenda e a comunicação entre pais/responsáveis pelos alunos de uma maneira mais eficaz e formal. Assim diminuindo o número de informações que possam se perder durante o processo.\n\nGloria Laila Alves Guimarães\n\nLetícia Reis de Oliveira\n\nTaís Fernandes de Oliveira\n\n Verônica da Cruz Gargoriano\n\n\n"
             android:id="@+id/textView2"
             android:paddingLeft="35dp"
             android:paddingRight="35dp"
